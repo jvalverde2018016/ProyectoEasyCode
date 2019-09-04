@@ -13,5 +13,4 @@ create table Estudiantes (
     primary key PK_codigoEstudiante (codigoEstudiante)
 );
 
-Select *from Estudiantes;
 
