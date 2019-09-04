@@ -14,26 +14,26 @@ import javax.persistence.Table;
  * @author programacion
  */
 @Entity
-@Table (name="estudiates")
+@Table (name="estudiantes")
 public class Estudiante implements Serializable {
 
     @Id
     @Column (name="codigoEstudiante")
     private int codigoEstudiante;
     @Column
-   String nombre;
+    private String nombre;
     @Column
-    String apellido;
+    private String apellido;
     @Column
-    String edad;
+    private String edad;
     @Column
-    String fechaNacimiento;
+    private String fechaNacimiento;
     @Column
-    String carrera;
+    private String carrera;
     @Column
-    String codigoTecnico;
+    private String codigoTecnico;
     @Column
-    String codigoAcademico;
+    private String codigoAcademico;
 
     public Estudiante() {
     }
