@@ -1,5 +1,5 @@
 create database DBEasyCode;
-use DBEasyCode;
+use  DBEasyCode;
 
 create table Estudiantes (
 	codigoEstudiante int not null,
